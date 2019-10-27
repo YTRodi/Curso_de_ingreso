@@ -1,0 +1,28 @@
+Todo while (mientras) tiene 3 puntos:
+1)yo estoy creando al variable yu asignandole un valor para lo que vo a usar.
+	var contador = 0
+0 Y FALSE = NO ENTRA
+1 Y TRUE = ENTRA (al bucle)
+2)defino la logica para compararla
+3)
+----------------------------------------
+while(!(numero>0 && numero<10))
+	while((numero>0 && numero<10)) //CON EL (!) NIEGO EL && Y SE TRANSFORMA EN || //con que se cumpla un error hay un "o" = ||.
+	{
+		numero=prompt("error");
+		numero=parseInt(numero);//pedir nuevamente un numero
+	}
+	console.log(suma);
+----------------
+contador=contador+1 ==> es una linea literal. (dato literal)
+
+acumulador/SUMADOR=acumulador+numero ===> es una linea variable (dato variable)
+
+----------------------------------------------------------------------
+numero=prompt("Ingrese,");
+		numero=parseInt(numero);
+		contador=contador+1; //es una linea literal. (dato literal)
+		acumulador=acumulador+numero; //es una linea variable (dato variable)
+		promedio=acumulador/contador; //VA A LO ULTIMO, PASO 3.
+console.log(contador);
+console.log(acumulador);
